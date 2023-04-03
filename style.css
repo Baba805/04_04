@@ -1,0 +1,133 @@
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    header{
+        padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .header_nav_left > a{
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+    }
+    .header_nav_right > a{
+        text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: rgba(255, 255, 255, 0.422);
+    text-decoration: none;
+    margin-right: 10px;
+
+    }
+    .hamburger{
+        font-size: 20px;
+        color: aliceblue;
+        display: none;
+    }
+
+    #colorful{
+        background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+        text-align: center;
+        height: 600px;
+    
+
+    }
+    .main_div_items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        /* font-size: 4rem;
+        font-weight: 800;
+        line-height: 1.2; */
+        color: azure;
+}
+.main_div_items > h1{
+    font-weight: 800;
+    line-height: 1.2;
+    font-size: 6rem;
+}
+.main_div_items > h2{
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: 800;
+    
+}
+.main_div_items > button{
+    text-transform: uppercase;
+    padding: 1.5rem 3rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    margin-top: 3rem;
+    background-color: #ee0979;
+    border-color: #ee0979;
+    color: white;
+    border-radius: 21px;
+}
+.main_div_items > button:hover{
+    background-color:  #ca0867;
+    border-color: #be0761;
+
+}
+
+#about_us{
+    margin-top: 60px;
+}
+.first_title , .secon_title , .third_title{
+    align-items: center !important;
+    margin-top: 100px;
+    
+    /* Transform:translate(10%,-5%); */
+}
+
+.img1_div > img, .img2_div > img, .img3_div > img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto;
+    /* Transform:translate(40%,-10%); */
+}
+
+.secon_title {
+    /* Transform:translate(-50%,-10%); */
+}
+footer{
+    background-color: #000;
+
+}
+footer > h3{
+    /* Transform:translate(-50%,-50%); */
+    color: aliceblue;
+    text-align: center;
+    padding: 5% 20%;
+}
+.a{
+    align-items: center !important;
+}
+
+      
+       
+       
+    
+    
